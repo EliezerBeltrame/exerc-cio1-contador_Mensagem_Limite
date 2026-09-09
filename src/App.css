@@ -1,0 +1,49 @@
+```css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contador {
+  background: white;
+  width: 300px;
+  padding: 35px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contador h1 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contador p {
+  font-size: 22px;
+  color: #555;
+  margin: 20px 0;
+}
+
+.contador button {
+  background: #2878d7;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contador button:hover {
+  background: #1d65b8;
+}
+```
